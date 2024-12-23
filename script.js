@@ -1,14 +1,51 @@
-const jsonUrl = "issues.json"; // issues.jsonのURL（GitHub Pagesにデプロイされているもの）
-const repoOwner = "snakajima"; // リポジトリのオーナー
+const clientId = "YOUR_GITHUB_APP_CLIENT_ID"; // GitHubアプリのクライアントID
+const redirectUri = "https://your-vercel-project-url.vercel.app/"; // VercelのデプロイURL
+const jsonUrl = "issues.json"; // GitHub Pagesにデプロイされているデータ
+const repoOwner = "snakajima"; // リポジトリオーナー
 const repoName = "life-is-beautiful"; // リポジトリ名
 
-// JSONファイルからIssueデータを取得して表示
+function getAccessToken() {
+    return sessionStorage.getItem("github_access_token");
+}
+
+function loginWithGitHub() {
+    const githubAuthUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=public_repo`;
+    window.location.href = githubAuthUrl;
+}
+
+function handleRedirectCallback() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const code = urlParams.get("code");
+
+    if (code) {
+        fetchAccessToken(code);
+    }
+}
+
+async function fetchAccessToken(code) {
+    try {
+        const response = await fetch("/api/get-github-token", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ code, redirectUri })
+        });
+
+        if (!response.ok) throw new Error("アクセストークンの取得に失敗しました");
+
+        const data = await response.json();
+        sessionStorage.setItem("github_access_token", data.access_token);
+        window.location.href = redirectUri;
+    } catch (error) {
+        console.error(error);
+    }
+}
+
 async function fetchAndDisplayIdeas() {
     try {
         const response = await fetch(jsonUrl);
-        if (!response.ok) {
-            throw new Error("データの取得に失敗しました。");
-        }
+        if (!response.ok) throw new Error("データの取得に失敗しました");
+
         const ideas = await response.json();
         displayIdeas(ideas);
     } catch (error) {
@@ -17,42 +54,36 @@ async function fetchAndDisplayIdeas() {
     }
 }
 
-// アイデアをHTMLに表示
 function displayIdeas(ideas) {
     const listElement = document.getElementById("idea-list");
     listElement.innerHTML = "";
 
     ideas.forEach(idea => {
-        const ideaCard = document.createElement("div");
-        ideaCard.className = "col-md-6";
-
-        ideaCard.innerHTML = `
-            <div class="card idea-card">
-                <div class="card-body">
-                    <h5 class="card-title">${idea.title}</h5>
-                    <p class="card-text">${idea.body.substring(0, 100)}...</p>
-                    <p class="card-text">
-                        <small class="text-muted">投票数: <span id="vote-count-${idea.number}">${idea.comments}</span></small>
-                    </p>
-                    <button class="btn btn-primary btn-sm vote-button" onclick="vote(${idea.number})">いいね</button>
-                </div>
-            </div>
+        const listItem = document.createElement("div");
+        listItem.innerHTML = `
+            <h3>エントリーNo: ${idea.number} - ${idea.title}</h3>
+            <p>${idea.body.substring(0, 100)}...</p>
+            <button onclick="vote(${idea.number})">いいね</button>
         `;
-
-        listElement.appendChild(ideaCard);
+        listElement.appendChild(listItem);
     });
 }
 
-// 投票（いいね）ボタンを押したときの処理
 async function vote(issueNumber) {
+    const accessToken = getAccessToken();
+    if (!accessToken) {
+        alert("いいねするにはログインが必要です。");
+        loginWithGitHub();
+        return;
+    }
+
     const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/issues/${issueNumber}/comments`;
-    const token = "YOUR_PERSONAL_ACCESS_TOKEN"; // GitHubトークンを記載（安全に管理する方法を推奨）
 
     try {
         const response = await fetch(apiUrl, {
             method: "POST",
             headers: {
-                "Authorization": `Bearer ${token}`,
+                "Authorization": `Bearer ${accessToken}`,
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({ body: "👍 いいね！" })
@@ -60,8 +91,6 @@ async function vote(issueNumber) {
 
         if (response.ok) {
             alert("投票が完了しました！");
-            const voteCountElement = document.getElementById(`vote-count-${issueNumber}`);
-            voteCountElement.textContent = parseInt(voteCountElement.textContent) + 1; // 投票数を更新
         } else {
             throw new Error("投票に失敗しました。");
         }
@@ -71,5 +100,5 @@ async function vote(issueNumber) {
     }
 }
 
-// ページ読み込み時にアイデアを表示
+handleRedirectCallback();
 fetchAndDisplayIdeas();
