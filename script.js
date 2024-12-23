@@ -100,5 +100,20 @@ async function vote(issueNumber) {
     }
 }
 
+async function fetchLikeCount() {
+    try {
+        const response = await fetch('/api/get-like-count');
+        if (!response.ok) throw new Error('Failed to fetch like count');
+
+        const data = await response.json();
+        document.getElementById('like-count-value').textContent = data.likeCount;
+    } catch (error) {
+        console.error('Error fetching like count:', error);
+    }
+}
+
+// ページ読み込み時にいいねの数を取得して表示
+document.addEventListener('DOMContentLoaded', fetchLikeCount);
+
 handleRedirectCallback();
 fetchAndDisplayIdeas();
