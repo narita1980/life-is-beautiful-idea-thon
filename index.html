@@ -17,13 +17,50 @@
         .vote-button {
             margin-top: 10px;
         }
+        .issue-link {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .issue-link:hover {
+            text-decoration: underline;
+        }
+        .intro-section {
+            margin-bottom: 30px;
+        }
     </style>
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container py-5">
         <h1 class="text-center mb-4">Life is Beautiful - 投票ページ</h1>
-        <p class="text-center text-muted">気に入ったアイデアに「いいね」を押してください！</p>
+        
+        <!-- 説明セクション -->
+        <div class="intro-section">
+            <p class="text-center text-muted">
+                このページは、「Life is Beautiful: アイデアソン、ハッカソンコントリビューション・フェス」の一環として、参加者が投稿した素晴らしいアイデアを紹介し、気に入ったものに投票するためのものです。
+            </p>
+            <p class="text-center text-muted">
+                <strong>アイデアソンとは？</strong> 参加者が「AIを活用した、AI-nativeな製品やサービス」をテーマに、アイデアを考えて投稿するイベントです。
+                誰でもアイデアを投稿でき、投票数が多いアイデアは特別な賞品を獲得するチャンスがあります！
+            </p>
+            <p class="text-center text-muted">
+                気に入ったアイデアに「いいね」を押して、応援してください！ 1人何回でも投票できます。
+            </p>
+            <p class="text-center text-muted">
+                <a href="https://github.com/snakajima/life-is-beautiful/issues" target="_blank" class="issue-link">
+                    詳細はこちらのページをご覧ください
+                </a>
+            </p>
+            <p class="text-center text-muted">
+                このページに関する改善点やフィードバックがあれば、以下のリンクからIssueを作成してください:
+                <br>
+                <a href="https://github.com/narita1980/life-is-beautiful-idea-thon/issues" target="_blank" class="issue-link">
+                    改善点を報告する
+                </a>
+            </p>
+        </div>
+        
+        <!-- アイデア表示エリア -->
         <div id="idea-list" class="row">読み込み中...</div>
     </div>
     <!-- Bootstrap JS Bundle -->
