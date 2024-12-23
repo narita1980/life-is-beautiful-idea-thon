@@ -1,6 +1,5 @@
 name: Fetch Issues
 
-# ワークフローをトリガーする条件
 on:
   schedule:
     - cron: "0 * * * *" # 毎時実行
@@ -14,14 +13,30 @@ jobs:
     - name: リポジトリをチェックアウト
       uses: actions/checkout@v3
 
-    - name: Issuesを取得
+    - name: Issuesを取得（ページング対応）
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        curl -H "Authorization: token $GITHUB_TOKEN" \
-             -H "Accept: application/vnd.github.v3+json" \
-             https://api.github.com/repos/snakajima/life-is-beautiful/issues \
-             | jq '.' > issues.json
+        REPO="snakajima/life-is-beautiful"
+        OUTPUT_FILE="issues.json"
+
+        # ページングで全件取得
+        PAGE=1
+        RESULTS=()
+        while :; do
+          RESPONSE=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/$REPO/issues?state=all&per_page=100&page=$PAGE")
+          ITEMS=$(echo "$RESPONSE" | jq '. | length')
+          if [ "$ITEMS" -eq 0 ]; then
+            break
+          fi
+          RESULTS+=("$RESPONSE")
+          PAGE=$((PAGE + 1))
+        done
+
+        # 全件をマージしてファイルに保存
+        echo "${RESULTS[@]}" | jq -s 'add' > $OUTPUT_FILE
 
     - name: JSONをコミットしてPush
       run: |
