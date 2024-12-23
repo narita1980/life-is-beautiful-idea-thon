@@ -107,13 +107,36 @@ async function fetchLikeCount() {
 
         const data = await response.json();
         document.getElementById('like-count-value').textContent = data.likeCount;
+
+        const now = new Date();
+        document.getElementById('last-updated').textContent = now.toLocaleString();
     } catch (error) {
         console.error('Error fetching like count:', error);
     }
 }
 
+async function vote() {
+    try {
+        const response = await fetch('/api/vote', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ /* 必要なデータをここに追加 */ })
+        });
+
+        if (!response.ok) throw new Error('Failed to vote');
+
+        // 投票後にいいねの数を再取得
+        fetchLikeCount();
+    } catch (error) {
+        console.error('Error voting:', error);
+    }
+}
+
 // ページ読み込み時にいいねの数を取得して表示
 document.addEventListener('DOMContentLoaded', fetchLikeCount);
+
+// 投票ボタンのクリックイベントを設定
+document.getElementById('vote-button').addEventListener('click', vote);
 
 handleRedirectCallback();
 fetchAndDisplayIdeas();
