@@ -35,12 +35,12 @@ async function fetchAccessToken(code) {
 
         const data = await response.json();
         sessionStorage.setItem("github_access_token", data.access_token);
-        window.location.href = redirectUri;
+        window.location.href = redirectUri; // トークン取得後にリダイレクト
     } catch (error) {
         console.error(error);
+        alert("アクセストークンの取得に失敗しました。");
     }
 }
-
 async function fetchAndDisplayIdeas() {
     try {
         const response = await fetch(jsonUrl);
