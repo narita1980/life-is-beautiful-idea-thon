@@ -1,5 +1,67 @@
 [
   {
+    "url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/300",
+    "repository_url": "https://api.github.com/repos/snakajima/life-is-beautiful",
+    "labels_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/300/labels{/name}",
+    "comments_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/300/comments",
+    "events_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/300/events",
+    "html_url": "https://github.com/snakajima/life-is-beautiful/issues/300",
+    "id": 2756309012,
+    "node_id": "I_kwDONR7Jjc6kSfAU",
+    "number": 300,
+    "title": "孤独死の社会課題に向き合う - AI活用型早期発見システム「Solitude Guard」",
+    "user": {
+      "login": "Dyu777888",
+      "id": 192622985,
+      "node_id": "U_kgDOC3sxiQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192622985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dyu777888",
+      "html_url": "https://github.com/Dyu777888",
+      "followers_url": "https://api.github.com/users/Dyu777888/followers",
+      "following_url": "https://api.github.com/users/Dyu777888/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Dyu777888/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Dyu777888/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Dyu777888/subscriptions",
+      "organizations_url": "https://api.github.com/users/Dyu777888/orgs",
+      "repos_url": "https://api.github.com/users/Dyu777888/repos",
+      "events_url": "https://api.github.com/users/Dyu777888/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Dyu777888/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2024-12-23T15:43:32Z",
+    "updated_at": "2024-12-23T15:43:32Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "### **孤独死の社会課題に向き合う - AI活用型早期発見システム「Solitude Guard」提供開始**\r\n東京、202x年x月xx日 - [貴社名]は、単身世帯における孤独死の早期発見を実現するAIシステム「Solitude Guard」の提供を開始します。本システムは、トイレ利用パターンのAI解析により、居住者の異常を速やかに検知し、管理会社や親族への通知を行います。\r\n\r\n**深刻化する孤独死問題への実践的アプローチ**\r\n近年増加する孤独死は、発見の遅れによる居室の損傷や、隣室への影響が深刻な社会問題となっています。「Solitude Guard」は、この課題に正面から取り組み、速やかな発見による損害の最小化を実現します。\r\n\r\n**システムの特徴**\r\n* トイレドアセンサーによる生活パターン把握\r\n* AIによる利用者の日常的なスケジュール学習\r\n* 段階的な確認システム：\r\n    1. 異常検知時の本人への電話確認\r\n    2. 応答なし時の登録連絡先への通知\r\n    3. 管理会社・オーナーへの緊急連絡\r\n\r\n**生活リズムを把握する仕組み**\r\n* トイレのドアセンサー  :   住人の生活パターンを捉える上で重要な指標となるドアの開閉情報をAIが分析\r\n* 言葉によるコミュニケーション  :   日常会話や自己申告でスケジュールや体調を管理し、異常があればいち早く気づけるように設計\r\n\r\n**異常検知から連絡までのフロー**\r\n1. AIによるモニタリング : スケジュールとトイレの開閉状況から、通常とは異なるパターンを把握\r\n2. 本人への確認 : AIがまず住人の携帯に連絡し、体調不良や緊急事態がないかを確認\r\n3. 家族や管理者への通知 : 一定時間内に応答がない場合、事前に登録された親近者・大家・管理会社などへ自動で連絡を行う\r\nこの段階的なアプローチにより、本人の負担にならず、かつ、想定外の事態でもすばやいフォローが可能となります。\r\n\r\n**不動産管理会社からの評価**\r\n「これまで発見が遅れることで、部屋の原状回復費用が高額になるケースが多くありました。本システムの導入により、家主の経済的負担を大幅に軽減できています」（不動産管理会社A社）\r\n\r\n**提供開始時期・費用**\r\n* 202x年x月より賃貸住宅向けに提供開始\r\n* 初期設置費用：xx,xxx円/戸\r\n* 月額利用料：x,xxx円/戸\r\n* 管理会社向け一括導入プランあり\r\n\r\nお問い合わせ先\r\n[貴社名] 営業部 電話：03-XXXX-XXXX Email：xxxxx[@xxxxx.com](mailto:contact@example.com)",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/300/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/300/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
     "url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/299",
     "repository_url": "https://api.github.com/repos/snakajima/life-is-beautiful",
     "labels_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/299/labels{/name}",
