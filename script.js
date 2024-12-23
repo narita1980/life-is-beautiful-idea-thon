@@ -1,5 +1,5 @@
-const clientId = "YOUR_GITHUB_APP_CLIENT_ID"; // GitHubアプリのクライアントID
-const redirectUri = "https://your-vercel-project-url.vercel.app/"; // VercelのデプロイURL
+const clientId = "Ov23liwSFqyNMRJp5FCu"; // GitHubアプリのクライアントID
+const redirectUri = "https://life-is-beautiful-idea-thon.vercel.app/"; // VercelのデプロイURL
 const jsonUrl = "issues.json"; // GitHub Pagesにデプロイされているデータ
 const repoOwner = "snakajima"; // リポジトリオーナー
 const repoName = "life-is-beautiful"; // リポジトリ名
