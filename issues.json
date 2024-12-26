@@ -1,5 +1,67 @@
 [
   {
+    "url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/335",
+    "repository_url": "https://api.github.com/repos/snakajima/life-is-beautiful",
+    "labels_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/335/labels{/name}",
+    "comments_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/335/comments",
+    "events_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/335/events",
+    "html_url": "https://github.com/snakajima/life-is-beautiful/issues/335",
+    "id": 2759697253,
+    "node_id": "I_kwDONR7Jjc6kfaNl",
+    "number": 335,
+    "title": "「オリジナルであれ 」── 圧倒的なオリジナルを生み出すインフラを教育の根幹に据えたOrigin of Originalsの挑戦",
+    "user": {
+      "login": "Koki-Origin",
+      "id": 179904328,
+      "node_id": "U_kgDOCrkfSA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/179904328?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Koki-Origin",
+      "html_url": "https://github.com/Koki-Origin",
+      "followers_url": "https://api.github.com/users/Koki-Origin/followers",
+      "following_url": "https://api.github.com/users/Koki-Origin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Koki-Origin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Koki-Origin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Koki-Origin/subscriptions",
+      "organizations_url": "https://api.github.com/users/Koki-Origin/orgs",
+      "repos_url": "https://api.github.com/users/Koki-Origin/repos",
+      "events_url": "https://api.github.com/users/Koki-Origin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Koki-Origin/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2024-12-26T12:13:17Z",
+    "updated_at": "2024-12-26T12:18:02Z",
+    "closed_at": null,
+    "author_association": "NONE",
+    "active_lock_reason": null,
+    "body": "**2025年4月1日**\r\nOrigin of OriginalsがAIマルチエージェントを活用し、\r\n**オリジナルを生み出すインフラの基盤となるシステム**を構築しました。\r\nこのプロジェクトは、教育を根本から変革し、圧倒的なオリジナルを生み出し、\r\n日本を**イノベーションの起こる国**へと生まれ変わらせるという壮大な試みの第一歩です。\r\n\r\n\r\n### 従来の教育や教育改革への批判\r\n普通を量産し続ける日本教育と社会。 \r\nそれに対して議論される教育改革は、**理想論のプッシュ戦略**がほとんどです。\r\nアクティブラーニングは、思考力や独自性を持たない生徒たちが行うには困難であり、\r\n新しい効果を生み出すどころか学力低下すら招いている実情があります。 \r\n\r\nテクノロジーを活用した教育企業の多くは、決して革新的とはいえず、\r\nテクノロジーによる**既存のレールや価値観を前提とした効率化**に留まっています。 \r\n\r\n既存教育を逸脱する世界では、自己啓発セミナーや成功者コミュニティビジネスが蔓延しています。 \r\nそんな世界に対して、**「オリジナル」であること**を教育の根幹に据えたOrigin of Originalsが立ち上がりました。\r\n\r\n\r\n### 圧倒的なオリジナルを生み出す教育インフラ\r\n受験や就活というゴールばかりを目指す従来の教育には、\r\n**自分だけの道**を形成するための基盤がありません。 \r\n自己啓発や成功者コミュニティは、影響力のある人のビジネスの源泉であり、\r\nそこに所属する人は “新しい価値観に染まり直しただけ” であり、\r\n独自性や個人の可能性を伸ばす段階には至っていません。\r\n\r\n Origin of Originalsは、この閉塞感を打破するためには、\r\n**個人のオリジナル**を支える仕組みそのものを作る必要があると考えています。\r\n既存の価値観やレールから脱却し、\r\n**個人のポテンシャルを最大化するための教育インフラ**を新たに構築することを宣言しています。\r\n\r\n\r\n### AIマルチエージェントシステムが構築する刺激的な独自性追求の場所\r\nOrigin of Originalsは、**AIマルチエージェントシステム**を核として位置づけています。 \r\nAIやテクノロジーの導入といえば、学習の効率化やパーソナライズが中心でした。 \r\n当然、これらは必要不可欠な要素であり、Origin of Originalsも重要視しています。 \r\nですが、同社が提案するのは**「効率性」ではなく「創造性」**を刺激するAI活用です。\r\n\r\nまず、ユーザーがいくつかの質問に回答すると、複数のAIエージェントが同時に議論を開始。 \r\n各エージェントには異なる個性や専門分野が割り振られており、\r\n互いの意見を衝突させながら新しい可能性を探ります。\r\n\r\nユーザーはこの**“オープンダイアログ”**を観察し、\r\n* 「確かに自分はそうかもしれない」\r\n* 「そのような可能性もあるのか」\r\n* 「自分はそうではない」\r\nなどの気付きや考えが生まれていきます。 \r\n\r\nここで重要なのは、ユーザー自身が議論に**積極的に介入**できることです。 \r\n「そこはズレている」と訂正したり、\r\n自分の考えを付け加えるプロセスこそが自己形成において非常に重要であり、\r\n同時にAIエージェントがユーザーを深く理解し、\r\nさらに刺激的な意見や提案を出し、パーソナライズが進んでいく。 \r\nこのインタラクティブなプロセスが、従来の静的な自己分析や一方的なノウハウ情報の発信にはない、\r\n**真に成長を促すための要素**だと、Origin of Originalsは考えています。\r\n\r\n\r\n### オリジナリティ・フレームワーク\r\nこのAIマルチエージェントシステムを活かすために、\r\nOrigin of Originalsは7段階のフレームワークを提示しています。\r\n\r\n1. 既存の常識・価値観を疑う\r\n2. 不要な価値基準を**アンラーニング**する\r\n3. ゼロから自己分析する\r\n4. **新しい刺激**を得る\r\n5. 自分の価値基準を再構築する\r\n6. 自分のビジョンを立てる\r\n7. **試行錯誤とリフレクション**を繰り返し、独自性を研ぎ澄ます\r\n\r\nユーザーは、このプロセスをAIとの対話の中で実践していきます。 \r\n単なる自己PRや就活などの目的のためではなく、\r\n**自己の成長の基盤**として深い内省や創造的な思考が導かれる仕組みになっています。\r\n\r\n\r\n### ユーザーの声\r\n「有名人のアドバイスや成功者の言葉は、私には縁遠い世界の話だと思っていました。 \r\nOrigin of Originalsを試してみたところ、\r\n**AIエージェント同士の刺激的な議論**が私自身の内面を次々と掘り起こし、\r\nあらゆる可能性を見せてくれました。 \r\nこれは単なるツールではなく、人生戦略を自分らしく組み立てるための新しい土台です。」\r\n\r\n「AI同士が激しく論争している様子を見ていると、**『私はこう思う』**と強く言いたくなる瞬間があります。 \r\nそれこそが、私が自分の考えをはっきり言語化する初めての経験でした。 \r\nオリジナリティって、こんなふうに芽生えるんだと感動しました。」\r\n\r\n「既存のレールを外れることに不安があったけれど、\r\nここでは**はみ出すことが推奨**されているのが新鮮でした。 \r\n日本の教育や社会は、“普通”に従っていないと落ちこぼれになるような圧がありました。 \r\nでも、Origin of Originalsでは、むしろ常識を疑う視点や、\r\n自分だけの道を模索する態度を“オリジナル”として積極的に評価してくれます。 \r\n内心ではチャレンジしたかった自分の思いを、堂々と形にできるようになりました。」\r\n\r\n\r\n### CEOのコメント\r\nOrigin of Originalsを率いるCEOは、あえて学校教育から逸脱し、独自の道の追求を続けてきました。 \r\n数々の“改革”や“独創的”と言われる学校やプロジェクトにも期待して参加しましたが、\r\n「どれも**形式的なトレンドの詰め合わせ**であり、本質的な価値は生み出していない」と失望し、\r\n自ら道を切り拓いてきたといいます。\r\n\r\n“既存のレールはもちろん、トレンドを取り入れた理想論の教育改革では、新しい価値は生み出されません。 \r\n影響力のある人が自己のビジネスとして形成。 \r\n普通の人生を送ってきた人たちが、事業の一つとして運用。 \r\nこの二つのケースがあまりに多いのです。 \r\n私は、個人のオリジナルが生み出されることこそが、\r\n**イノベーションが起こり活気ある社会**を形成する原動力だと信じています。 \r\nだからこそ、AIを既存のものの**効率化ではなく、独自性の解放**に使うべきだと思ったのです。 \r\n**オリジナルを追求できるインフラ**を構築することが、Origin of Originalsの使命です。“\r\n\r\n\r\nOrigin of ### Originalsのビジョン\r\nこのプロジェクトは、**AIマルチエージェント**の新しい活用法と、\r\nオリジナリティ・フレームワークを融合させる形でスタートします。 \r\nユーザーが繰り返しAIの議論を体験しながら、\r\n自分独自の思考と行動を加速させる仕組みこそが、\r\n**オリジナルを生み出すインフラの基盤**になると考えているためです。 \r\n試行錯誤のたびに生じる障壁を、一緒に乗り越え、**オリジナル・ジャーニー**をデザインしていく。\r\n\r\nOrigin of Originalsは、一人の新たな挑戦が連鎖し、社会に大きなうねりをもたらす未来を描いています。 \r\nたとえ一つひとつは小さな変化でも、それが積み重なれば日本の価値観そのものを変えていける。\r\nAIマルチエージェントを核としたこのプロジェクトは、\r\nその**イノベーションの連鎖**を引き起こす仕掛けでもあるのです。\r\n“普通”であることを疑い、独自性に挑む人が増えれば増えるほど、社会は必然的に新しい息吹を得る。 \r\nこのAIマルチエージェントシステムの可能性が、\r\n一人ひとりの**独自性を解放**し、日本全体の停滞を打破していく。\r\nOrigin of Originalsは、その**新しい未来**を真剣に思い描いているのです。\r\n",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/335/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/335/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
     "url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/334",
     "repository_url": "https://api.github.com/repos/snakajima/life-is-beautiful",
     "labels_url": "https://api.github.com/repos/snakajima/life-is-beautiful/issues/334/labels{/name}",
