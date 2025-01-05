@@ -31,7 +31,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -39,7 +49,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-31T14:59:34Z",
-    "updated_at": "2024-12-31T15:00:58Z",
+    "updated_at": "2025-01-05T21:19:48Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -465,7 +475,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -473,7 +493,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-31T14:30:28Z",
-    "updated_at": "2024-12-31T14:30:28Z",
+    "updated_at": "2025-01-05T21:21:39Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -1519,7 +1539,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -1527,7 +1557,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-31T13:22:54Z",
-    "updated_at": "2024-12-31T13:22:54Z",
+    "updated_at": "2025-01-05T21:23:56Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -1891,7 +1921,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -1899,7 +1939,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-31T12:40:14Z",
-    "updated_at": "2024-12-31T12:40:14Z",
+    "updated_at": "2025-01-05T21:24:26Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -2449,7 +2489,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -2457,7 +2507,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-31T09:59:45Z",
-    "updated_at": "2024-12-31T09:59:45Z",
+    "updated_at": "2025-01-05T21:25:17Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -3007,7 +3057,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7772375517,
+        "node_id": "LA_kwDONR7Jjc8AAAABz0UJ3Q",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/duplicate",
+        "name": "duplicate",
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists"
+      },
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -3015,7 +3084,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-31T07:33:09Z",
-    "updated_at": "2024-12-31T07:33:09Z",
+    "updated_at": "2025-01-05T21:26:00Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -4309,7 +4378,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -4317,7 +4396,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-31T00:46:34Z",
-    "updated_at": "2024-12-31T00:46:34Z",
+    "updated_at": "2025-01-05T21:27:58Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -5673,7 +5752,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -5681,7 +5770,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-30T15:43:24Z",
-    "updated_at": "2024-12-30T23:22:42Z",
+    "updated_at": "2025-01-05T21:29:26Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -5859,7 +5948,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -5867,7 +5966,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-30T14:49:12Z",
-    "updated_at": "2024-12-30T14:51:32Z",
+    "updated_at": "2025-01-05T21:29:52Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -7967,7 +8066,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -7975,7 +8084,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-29T08:10:19Z",
-    "updated_at": "2024-12-29T08:10:19Z",
+    "updated_at": "2025-01-05T21:31:56Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -8587,7 +8696,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -8595,7 +8714,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-28T07:41:21Z",
-    "updated_at": "2024-12-28T07:41:21Z",
+    "updated_at": "2025-01-05T21:32:31Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -9207,7 +9326,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -9215,7 +9344,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-27T06:45:44Z",
-    "updated_at": "2024-12-27T07:22:59Z",
+    "updated_at": "2025-01-05T21:32:55Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -9278,6 +9407,15 @@
         "color": "cfd3d7",
         "default": true,
         "description": "This issue or pull request already exists"
+      },
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
       }
     ],
     "state": "open",
@@ -9287,7 +9425,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-27T06:09:35Z",
-    "updated_at": "2025-01-01T02:39:30Z",
+    "updated_at": "2025-01-05T21:33:15Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -11263,7 +11401,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -11271,7 +11419,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-24T22:50:56Z",
-    "updated_at": "2024-12-24T22:50:56Z",
+    "updated_at": "2025-01-05T21:35:23Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -11511,7 +11659,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7772375517,
+        "node_id": "LA_kwDONR7Jjc8AAAABz0UJ3Q",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/duplicate",
+        "name": "duplicate",
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists"
+      },
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -11519,7 +11686,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-24T13:40:37Z",
-    "updated_at": "2024-12-24T13:40:37Z",
+    "updated_at": "2025-01-05T21:35:42Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -12327,7 +12494,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7772375517,
+        "node_id": "LA_kwDONR7Jjc8AAAABz0UJ3Q",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/duplicate",
+        "name": "duplicate",
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists"
+      },
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -12335,7 +12521,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-23T03:31:13Z",
-    "updated_at": "2024-12-23T03:31:13Z",
+    "updated_at": "2025-01-05T21:36:36Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -14063,7 +14249,26 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7772375517,
+        "node_id": "LA_kwDONR7Jjc8AAAABz0UJ3Q",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/duplicate",
+        "name": "duplicate",
+        "color": "cfd3d7",
+        "default": true,
+        "description": "This issue or pull request already exists"
+      },
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -14071,7 +14276,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-18T11:52:29Z",
-    "updated_at": "2024-12-18T11:53:08Z",
+    "updated_at": "2025-01-05T21:38:05Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
@@ -14455,7 +14660,17 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7949233139,
+        "node_id": "LA_kwDONR7Jjc8AAAAB2c-r8w",
+        "url": "https://api.github.com/repos/snakajima/life-is-beautiful/labels/firstRound",
+        "name": "firstRound",
+        "color": "d4c5f9",
+        "default": false,
+        "description": ""
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
@@ -14463,7 +14678,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2024-12-17T09:32:26Z",
-    "updated_at": "2024-12-17T09:32:26Z",
+    "updated_at": "2025-01-05T21:38:51Z",
     "closed_at": null,
     "author_association": "NONE",
     "active_lock_reason": null,
