@@ -1,8 +1,6 @@
 name: Fetch Issues
 
 on:
-  schedule:
-    - cron: "0 * * * *" # 毎時実行
   workflow_dispatch: # 手動トリガー
 
 jobs:
